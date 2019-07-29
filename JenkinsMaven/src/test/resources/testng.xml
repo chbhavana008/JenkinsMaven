@@ -8,6 +8,6 @@
   <packages>
   <package name="com.qa.test.*"/>
   
-  </packages>
+  </packages>i
   </test>
   </suite>
