@@ -56,12 +56,12 @@
 
 </plugins>
 
-<resources>
+<!-- <resources>
 	<resource>
 		<directory>src/test/resources</directory>
 		<filtering>true</filtering>
 	</resource>
-</resources>
+</resources> -->
 
 </build>
 
