@@ -37,12 +37,12 @@
 						<suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 					
-					<systemPropertyVariables>
+<!-- 					<systemPropertyVariables>
 					
 					<executionBrowser>${browser}</executionBrowser>
 					
 					
-					</systemPropertyVariables>
+					</systemPropertyVariables> -->
 					
 					
 					

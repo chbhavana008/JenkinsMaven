@@ -7,13 +7,11 @@ import org.openqa.selenium.support.How;
 
 public class LoginPage {
 	
-
 	public WebDriver driver;	
 		
 	public LoginPage(WebDriver driver) {
 		
 		this.driver=driver;
-
 	
 	}
 	
@@ -29,12 +27,6 @@ public class LoginPage {
 		Id.sendKeys(Username);
 		Password.sendKeys(pwd);
 		submit.click();
-		
-		
-		
+				
 	}
-	
-	
-	
-
 }

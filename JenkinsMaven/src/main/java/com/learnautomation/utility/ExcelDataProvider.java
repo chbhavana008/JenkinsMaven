@@ -7,10 +7,12 @@ import java.io.IOException;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcelDataProvider {
-XSSFWorkbook wb;
+
+	XSSFWorkbook wb;
+	
 	public ExcelDataProvider() {
 		
-		File src=new File("./TestData/LoginFBtestng.xml");
+		File src=new File("./TestData/TestDataFB.xlsx");
 		try {
 		FileInputStream fis=new FileInputStream(src);
 		

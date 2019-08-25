@@ -18,8 +18,7 @@ public class BaseClass {
 	@BeforeSuite
 	public void setUpSuite()
 	{
-		
-		
+				
 		excel=new ExcelDataProvider();
 		
 	}
@@ -29,12 +28,8 @@ public class BaseClass {
 	{
 		driver=BrowserFactory.startApplication(driver, "chrome","http://facebook.com");	
 				
-		System.out.println(driver.getTitle());			
+		System.out.println("title of the page is" + driver.getTitle());			
 	}
-	
-	
-
-	
 	
 	@AfterClass
 	public void quitbrowser() {
