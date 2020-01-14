@@ -1,29 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="17" passed="17">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16346" started-at="2019-08-25T06:41:59Z" finished-at="2019-08-25T06:42:16Z">
+  <suite name="testngtest" duration-ms="19102" started-at="2020-01-09T19:24:33Z" finished-at="2020-01-09T19:24:52Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16346" started-at="2019-08-25T06:41:59Z" finished-at="2019-08-25T06:42:16Z">
+    <test name="Maven demo testing" duration-ms="19102" started-at="2020-01-09T19:24:33Z" finished-at="2020-01-09T19:24:52Z">
+      <class name="com.qa.test.DemoTest1">
+        <test-method status="PASS" signature="add()[pri:0, instance:com.qa.test.DemoTest1@1bce4f0a]" name="add" duration-ms="5" started-at="2020-01-09T19:24:33Z" finished-at="2020-01-09T19:24:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add -->
+        <test-method status="PASS" signature="div()[pri:0, instance:com.qa.test.DemoTest1@1bce4f0a]" name="div" duration-ms="1" started-at="2020-01-09T19:24:33Z" finished-at="2020-01-09T19:24:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- div -->
+        <test-method status="PASS" signature="mul()[pri:0, instance:com.qa.test.DemoTest1@1bce4f0a]" name="mul" duration-ms="1" started-at="2020-01-09T19:24:33Z" finished-at="2020-01-09T19:24:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mul -->
+        <test-method status="PASS" signature="sub()[pri:0, instance:com.qa.test.DemoTest1@1bce4f0a]" name="sub" duration-ms="1" started-at="2020-01-09T19:24:33Z" finished-at="2020-01-09T19:24:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub -->
+      </class> <!-- com.qa.test.DemoTest1 -->
+      <class name="com.qa.test.DemoTest2">
+        <test-method status="PASS" signature="add()[pri:0, instance:com.qa.test.DemoTest2@5e3a8624]" name="add" duration-ms="3" started-at="2020-01-09T19:24:52Z" finished-at="2020-01-09T19:24:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add -->
+        <test-method status="PASS" signature="div()[pri:0, instance:com.qa.test.DemoTest2@5e3a8624]" name="div" duration-ms="4" started-at="2020-01-09T19:24:52Z" finished-at="2020-01-09T19:24:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- div -->
+        <test-method status="PASS" signature="mul()[pri:0, instance:com.qa.test.DemoTest2@5e3a8624]" name="mul" duration-ms="3" started-at="2020-01-09T19:24:52Z" finished-at="2020-01-09T19:24:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mul -->
+        <test-method status="PASS" signature="sub()[pri:0, instance:com.qa.test.DemoTest2@5e3a8624]" name="sub" duration-ms="2" started-at="2020-01-09T19:24:52Z" finished-at="2020-01-09T19:24:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub -->
+      </class> <!-- com.qa.test.DemoTest2 -->
       <class name="com.learnautomation.testcases.LoginTestFaceBook">
-        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.learnautomation.testcases.LoginTestFaceBook@29774679]" name="setUpSuite" is-config="true" duration-ms="369" started-at="2019-08-25T06:41:59Z" finished-at="2019-08-25T06:41:59Z">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.learnautomation.testcases.LoginTestFaceBook@3bfdc050]" name="setUpSuite" is-config="true" duration-ms="385" started-at="2020-01-09T19:24:33Z" finished-at="2020-01-09T19:24:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpSuite -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.learnautomation.testcases.LoginTestFaceBook@29774679]" name="setup" is-config="true" duration-ms="7306" started-at="2019-08-25T06:41:59Z" finished-at="2019-08-25T06:42:07Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.learnautomation.testcases.LoginTestFaceBook@3bfdc050]" name="setup" is-config="true" duration-ms="13625" started-at="2020-01-09T19:24:33Z" finished-at="2020-01-09T19:24:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginapp()[pri:0, instance:com.learnautomation.testcases.LoginTestFaceBook@29774679]" name="loginapp" duration-ms="8230" started-at="2019-08-25T06:42:07Z" finished-at="2019-08-25T06:42:15Z">
+        <test-method status="PASS" signature="loginapp()[pri:0, instance:com.learnautomation.testcases.LoginTestFaceBook@3bfdc050]" name="loginapp" duration-ms="4703" started-at="2020-01-09T19:24:47Z" finished-at="2020-01-09T19:24:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginapp -->
-        <test-method status="PASS" signature="quitbrowser()[pri:0, instance:com.learnautomation.testcases.LoginTestFaceBook@29774679]" name="quitbrowser" is-config="true" duration-ms="799" started-at="2019-08-25T06:42:15Z" finished-at="2019-08-25T06:42:16Z">
+        <test-method status="PASS" signature="quitbrowser()[pri:0, instance:com.learnautomation.testcases.LoginTestFaceBook@3bfdc050]" name="quitbrowser" is-config="true" duration-ms="694" started-at="2020-01-09T19:24:51Z" finished-at="2020-01-09T19:24:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitbrowser -->
       </class> <!-- com.learnautomation.testcases.LoginTestFaceBook -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.qa.test.DemoTest3">
+        <test-method status="PASS" signature="add()[pri:0, instance:com.qa.test.DemoTest3@5c3bd550]" name="add" duration-ms="2" started-at="2020-01-09T19:24:52Z" finished-at="2020-01-09T19:24:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add -->
+        <test-method status="PASS" signature="div()[pri:0, instance:com.qa.test.DemoTest3@5c3bd550]" name="div" duration-ms="1" started-at="2020-01-09T19:24:52Z" finished-at="2020-01-09T19:24:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- div -->
+        <test-method status="PASS" signature="mul()[pri:0, instance:com.qa.test.DemoTest3@5c3bd550]" name="mul" duration-ms="1" started-at="2020-01-09T19:24:52Z" finished-at="2020-01-09T19:24:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mul -->
+        <test-method status="PASS" signature="sub()[pri:0, instance:com.qa.test.DemoTest3@5c3bd550]" name="sub" duration-ms="1" started-at="2020-01-09T19:24:52Z" finished-at="2020-01-09T19:24:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub -->
+      </class> <!-- com.qa.test.DemoTest3 -->
+      <class name="com.qa.test.DemoTest4">
+        <test-method status="PASS" signature="add()[pri:0, instance:com.qa.test.DemoTest4@91161c7]" name="add" duration-ms="1" started-at="2020-01-09T19:24:52Z" finished-at="2020-01-09T19:24:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add -->
+        <test-method status="PASS" signature="div()[pri:0, instance:com.qa.test.DemoTest4@91161c7]" name="div" duration-ms="0" started-at="2020-01-09T19:24:52Z" finished-at="2020-01-09T19:24:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- div -->
+        <test-method status="PASS" signature="mul()[pri:0, instance:com.qa.test.DemoTest4@91161c7]" name="mul" duration-ms="1" started-at="2020-01-09T19:24:52Z" finished-at="2020-01-09T19:24:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mul -->
+        <test-method status="PASS" signature="sub()[pri:0, instance:com.qa.test.DemoTest4@91161c7]" name="sub" duration-ms="1" started-at="2020-01-09T19:24:52Z" finished-at="2020-01-09T19:24:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub -->
+      </class> <!-- com.qa.test.DemoTest4 -->
+    </test> <!-- Maven demo testing -->
+  </suite> <!-- testngtest -->
 </testng-results>

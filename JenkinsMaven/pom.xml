@@ -80,7 +80,7 @@
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>6.14.3</version>
-			<scope>test</scope>
+			<scope>compile</scope>
 		</dependency>
 
 		<dependency>
@@ -101,8 +101,6 @@
 			<version>3.17</version>
 		</dependency>
 
-
 	</dependencies>
-
 
 </project>

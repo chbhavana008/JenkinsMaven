@@ -7,6 +7,7 @@
   
   <packages>
   <package name="com.qa.test.*"/>
+  <package name="com.learnautomation.testcases.*"/>
   
   </packages>
   </test>
